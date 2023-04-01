@@ -1,0 +1,189 @@
+/*//////////////////////////////////////////////////////////////Tag Selectors////////////////////////////////////////////////////////////////*/
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-family: "Sacramento", cursive;
+  font-size: 6.25rem;
+  color: #62b4a2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #62b4a2;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+hr {
+  color: #749898;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 4%;
+  margin: 75px auto;
+}
+
+/*/ ////////////////////////////////////////////////////////Class Selectors////////////////////////////////////////////////////////////////////////*/
+
+.bottom-cloud {
+  width: 15%;
+  position: absolute;
+  top: 170px;
+  left: 200px;
+}
+
+.middle-one-cloud {
+  width: 15%;
+  position: absolute;
+  top: 650px;
+  left: 150px;
+}
+
+.middle-two-cloud {
+  width: 15%;
+  position: absolute;
+  right: 150px;
+  bottom: 250px;
+}
+
+.mountain {
+  position: relative;
+  top: 157px;
+}
+
+.top-container {
+  background-color: #e5eeeb;
+  position: relative;
+  padding-top: 100px;
+  height: 860px;
+}
+
+.bottom-container {
+  background-color: #62b4a2;
+  margin: 100px auto auto auto;
+  padding: 35px;
+  line-height: 2;
+}
+
+.top-cloud {
+  width: 15%;
+  position: absolute;
+  right: 250px;
+  bottom: 650px;
+}
+
+.title-h2 {
+  font-size: 1.75rem;
+}
+
+.skill-row-1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row-2 {
+  width: 50%;
+  margin: 120px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  position: relative;
+  right: 30px;
+  bottom: 40px;
+}
+
+.shuttle-img {
+  width: 25%;
+  float: right;
+  position: relative;
+  left: 30px;
+  bottom: 50px;
+}
+
+.pfp {
+  margin-top: 40px;
+  width: 30%;
+}
+
+.profile {
+  width: 27%;
+  margin: 30px auto;
+}
+
+.pfp-sub {
+  line-height: 2;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #62b4a2;
+  padding: 16px 22px 17px 21px;
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+}
+
+.btn:hover {
+  background: #156b57;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.mail {
+  position: relative;
+  top: 12px;
+  right: 3px;
+  width: 5%;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.subtitle-text {
+  position: relative;
+  top: 10px;
+  color: white;
+}
+
+.footer-link {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.balloon {
+  position: absolute;
+  left: 100px;
+}
