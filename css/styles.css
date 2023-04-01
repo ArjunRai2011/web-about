@@ -47,13 +47,6 @@ hr {
   left: 200px;
 }
 
-.middle-one-cloud {
-  width: 15%;
-  position: absolute;
-  top: 650px;
-  left: 150px;
-}
-
 .middle-two-cloud {
   width: 15%;
   position: absolute;
@@ -80,12 +73,6 @@ hr {
   line-height: 2;
 }
 
-.top-cloud {
-  width: 15%;
-  position: absolute;
-  right: 250px;
-  bottom: 650px;
-}
 
 .title-h2 {
   font-size: 1.75rem;
@@ -186,4 +173,17 @@ hr {
 .balloon {
   position: absolute;
   left: 100px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
 }
